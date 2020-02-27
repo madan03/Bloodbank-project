@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Blood bank website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="description" content="Blood Donation Website">
+  <meta name="author" content="Exceptional Programmers">
+        
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+     <link rel="stylesheet"  href="custom.css">
+     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    
+  
+ </head>
+ 	<body>
+ 		<div class="container-fluid">
+        	<div class="row">
+        	
+            	<div class="col-md-8"><img align="left" src="blod.png" class="rounded-circle" width="150px" height="130px " >
+            		<h1 class="text-center abc">BLOOD BANK MANAGEMENT SYSTEM</h1>
+            			</div>
+            	
+            
+
+            	<div class="col-md-4" align="left">
+                    	<nav class="navbar navbar-expand-sm">
+                            <form class="form-inline" action="login.php" method="POST">
+                              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                            	<span> <button class="btn btn-danger" type="submit">Search</button></span>
+                            </form>
+                    	</nav>
+            	</div>
+        	</div>
+    	</div>
+
+      
+				<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  	
+ 						 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+   							 <span class="navbar-toggler-icon"></span>
+ 						 </button>
+  					<div class="collapse navbar-collapse" id="collapsibleNavbar">
+   						 <ul class="navbar-nav"
+               <li class="nav-item">
+                    <a  class="nav-link text-white"href="index.php" ><i class="fa fa-home" ></i>Home</a>
+                  </li>
+      						<li class="nav-item">
+        						<a href="search.php" class="nav-link text-white"><i class="fa fa-search" ></i>Search</a>
+      						</li>
+     						 <li class="nav-item">
+       							 <a href="sign.php" class="nav-link text-white"><i class="fa fa-sign-in" ></i>>Sign in</a>
+      						</li> 
+       						<li class="nav-item">
+       						 	 <a href="about.php" class="nav-link  text-white"><i class="far fa-address-card"></i>About us</a> 
+       						</li>
+                  <li class="nav-item">
+                    <a href="donate.php" class="nav-link text-white">Donate</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="donor.php" class="nav-link text-white">Donors</a>
+                  </li>
+                   
+         			</div>
+            </li>
+   						 </ul>
+ 				 	</div>  
+				</nav>
+			<div class="container-fluid header-img">
+          <div class="row1">
+            <div class="col-md-6 offset-md-3">
+              <div class="header">
+                <h1 class="text-center">Donate the blood, Save</h1><h1 class="text-center"> the life</h1>
+              </div>
+              <h1 class="text-center">Search the Donors</h1>
+              <hr class="White-bar text-center"/>
+              <form class="form-inline text-center" style="padding:40px 0px 0px 5px;" action="#" method="get">
+                <div class="form-group text-center justify-content-center">
+                  <select name="city" class="form-control demo-default " id="city" style="width: 220px; height:45px;" required>
+                    <option value="">--select--</option>
+                    <option value="1">Bhaktapur           </option>
+    <option value="2">Dhading             </option>
+    <option value="3">Kathmandu           </option>
+    <option value="4">Kavrepalanchok      </option>
+	<option value="5">Lalitpur            </option>
+	<option value="6">Nuwakot             </option>
+	<option value="7">Rasuwa              </option>
+	<option value="8">Sindhupalchok       </option>
+	<option value="9">Banke               </option>
+	<option value="10">Bardiya             </option>
+	<option value="11">Dailekh             </option>
+	<option value="12">Jajarkot            </option>
+	<option value="13">Surkhet             </option>
+	<option value="14">Baglung             </option>
+	<option value="15">Mustang             </option>
+	<option value="16">Myagdi              </option>
+	<option value="17">Parbat              </option>
+	<option value="18">Gorkha              </option>
+	<option value="19">Kaski               </option>
+	<option value="20">Lamjung             </option>
+	<option value="21">Manang              </option>
+	<option value="22">Syangja             </option>
+	<option value="23">Tanahu              </option>
+	<option value="24">Dhanusa             </option>
+	<option value="25">Dolakha             </option>
+	<option value="26">Mahottari           </option>
+	<option value="27">Ramechhap           </option>
+	<option value="28">Sarlahi             </option>
+	<option value="29">Sindhuli            </option>
+	<option value="30">Dolpa               </option>
+	<option value="31">Humla               </option>
+	<option value="32">Jumla               </option>
+	<option value="33">Kalikot             </option>
+	<option value="34">Mugu                </option>
+	<option value="35">Bhojpur             </option>
+	<option value="36">Dhankuta            </option>
+	<option value="37">Morang              </option>
+	<option value="38">Sankhuwasabha       </option>
+	<option value="39">Sunsari             </option>
+	<option value="40">Terhathum           </option>
+	<option value="41">Arghakhanchi        </option>
+	<option value="42">Gulmi               </option>
+	<option value="43">Kapilvastu          </option>
+	<option value="44">Nawalparasi         </option>
+	<option value="45">Palpa               </option>
+	<option value="46">Rupandehi           </option>
+	<option value="47">Baitadi             </option>
+	<option value="48">Dadeldhura          </option>
+	<option value="49">Darchula            </option>
+	<option value="50">Kanchanpur          </option>
+	<option value="51">Ilam                </option>
+	<option value="52">Jhapa               </option>
+	<option value="53">Panchthar           </option>
+	<option value="54">Taplejung           </option>
+	<option value="55">Bara                </option>
+	<option value="56">Chitwan             </option>
+	<option value="57">Makwanpur           </option>
+	<option value="58">Parsa               </option>
+	<option value="59">Rautahat            </option>
+	<option value="60">Dang                </option>
+	<option value="61">Pyuthan             </option>
+	<option value="62">Rolpa               </option>
+	<option value="63">Rukum               </option>
+	<option value="64">Salyan              </option>
+	<option value="65">Khotang             </option>
+	<option value="66">Okhaldhunga         </option>
+	<option value="67">Saptari             </option>
+	<option value="68">Siraha              </option>
+	<option value="69">Solukhumbu          </option>
+	<option value="70">Udayapur            </option>
+	<option value="71">Achham              </option>
+	<option value="72">Bajhang             </option>
+	<option value="73">Bajura              </option>
+	<option value="74">Doti                </option>
+	<option value="75">Kailali             </option>
+
+                    
+                  </select>
+                </div>
+              
+                  <div class="form-group center-aligned">
+                    <select name="blood_group" class="form-control demo-default text-center margin10px"id="blood_group" style="  padding 0 20px;width:220px;height:45px;">
+                       <option value="">--A+--</option> 
+                       <option value="A+">A+</option>
+                       <option value="A-">A-</option>
+                       <option value="AB+">AB+</option>
+                       <option value="AB-">AB-</option>
+                       <option value="B+">B+</option>
+                       <option value="B-">B-</option>
+                       <option value="O+">O+</option>
+                       <option value="O-">O-</option>
+                    </select></div>
+                    <div class="form-group center-aligned">
+                      <button class="btn btn-lg btn-danger" type="submit">search</button>
+                    </div>
+
+                  
+                  
+                </form>
+            </div>
+          </div>
+        </div>
+        <!--middle part --> 
+        <div class="container-fluid red-background">
+          <div class="row2">
+            <div class="col-md-12">
+              <h1 class="text-center"style="color:white">Donate The Blood</h1>
+              <hr class="White-bar text-center"/>
+              <p class="text-center pera-text">A blood donation occurs when a person voluntarily has blood drawn and used for transfusions and/or made into biopharmaceutical medications by a process called fractionation (separation of whole-blood components). Donation may be of whole blood, or of specific components directly (the latter called apheresis). Blood banks often participate in the collection process as well as the procedures that follow it.
+
+              Today in the developed world, most blood donors are unpaid volunteers who donate blood for a community supply. In some countries, established supplies are limited and donors usually give blood when family or friends need a transfusion (directed donation). Many donors donate as an act of charity, but in countries that allow paid donation some donor are paid, and in some cases there are incentives other than money such as paid time off from work. Donors can also have blood drawn for their own future use (autologous donation). Donating is relatively safe, but some donors have bruising where the needle is inserted or may feel faint.</p>
+            </div>
+          </div>
+        </div>
+        <!--contact us section-->
+        <div class="container-fluid contactus">
+              <div class="row4 ">
+                  <div class="col-md-6 offset-md-3">
+                      <h1 class="text-center some">Contact Us</h1>
+                          <hr class="White-bar"/>
+
+              <h1 class="text-center">
+                <a  target="_blank" href="https://www.facebook.com/"><i style="color: #fff;" class="fab fa-facebook-square"></i></a>
+
+                <a target="_blank" href="https://www.youtube.com/"><i style="color: #fff;" class="fab fa-youtube-square"></i></a> 
+              </h1>
+
+                    <div class="details">
+                      <p class="bcd"> 987654321<i class="fa fa-phone"></i>
+                      bloodbank@gmail.com <i class="fa fa-envelope"></i>  </p>
+                    </div>        
+                </div>
+              </div>
+        </div>
+
+
+     <!--end contact us section-->   
+	
+
+
+			
+ 	</body>
+
+</html>

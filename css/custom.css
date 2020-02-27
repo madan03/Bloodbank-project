@@ -1,0 +1,118 @@
+body{
+    padding:0px;
+}
+.head{
+    background: linear-gradient(to right,red ,black);
+    margin:px;
+    padding:2px;
+   text-decoration:none;
+  position: relative;
+}
+.col-md-8{
+    font-size:120px;
+    text-align: center;
+    color:rgb(236, 194, 87);
+    text-decoration:none;
+}
+.col-md-4{
+    padding-top:20px;
+    padding-right: 20px;
+}
+.header-img{
+
+    background-image: url(../image/header.png);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position-x:center;
+    background-position-y:center;
+    background-origin:padding-box;
+    background-clip :border-box;
+    background-color: transparent;
+    height:auto;
+    height: 500px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color:white;
+    width:700;
+}
+
+.container-fluid{
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-center{
+    text-align: center!important;
+}
+.white-bar{
+    height: 10px;
+    width: 50px;
+    color:white;
+    background-color: white;
+}
+.form-group{
+    padding:20px;
+}
+.center-aligned{
+    display: table;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-right: auto;
+}
+
+.margin10px{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+}.btn-danger{
+    background-color: #e74c3c;
+    padding-top:10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.red-background{
+    background-color:#e74c3c;
+    min-height: 200px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.pera-text{
+    
+    color:white;
+    font-size:16px;
+}
+.contactus{
+    background-color: #2c3e50;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+ .abc{
+    padding-top: 20px;
+ }
+ .bcd{
+    color:white;
+    font-size:25px;
+ }
+ .some{
+    color:white;
+ }
+ .center-aligned{
+    display: table;
+    margin: 0 auto;
+}
